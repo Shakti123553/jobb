@@ -22,7 +22,7 @@ import { useState } from 'react';
          <Routes>
            <Route path="/" element={<Home />} />
            <Route path="/about" element={<About />} />
-           <Route path="/jobs" element={<JobList jobs={jobs} setJobs={setJobs} />} />
+           <Route path="/JobList" element={<JobList jobs={jobs} setJobs={setJobs} />} />
            <Route path="/post" element={<JobPostForm setJobs={setJobs} />} />
            <Route path="/apply/:jobId" element={<JobApplyForm jobs={jobs} />} />
            <Route path="/contact" element={<Contact />} />
